@@ -5,6 +5,7 @@ import projectpage from "../components/projects"
 import { useEffect, useState } from "../libs"
 
 const aboutpage = () => {
+  
   const [data, setdata] = useState([])
     useEffect(() => {
         getprofile()
@@ -95,8 +96,8 @@ ${header()}
   <h1 class="text-center text-5xl font-[700] mt-10">CONTACT</h1>
   <h3 class=" text-center py-5 font-[800]">Currently active looking for Frontend Developer Internship</h3>
   <div class="flex justify-center items-center py-3">
-    <a href=""><img class="w-[70px] " src="https://res.cloudinary.com/dwp7umncy/image/upload/v1676946947/ass_ecma/github_cwj49v.png" alt=""></a>
-    <a href=""><img class="w-[70px] mx-4" src="https://res.cloudinary.com/dwp7umncy/image/upload/v1676946932/ass_ecma/email_tsmayg.png" alt=""></a>
+    <a href="https://github.com/truonghieu1501"><img class="w-[70px] " src="https://res.cloudinary.com/dwp7umncy/image/upload/v1676946947/ass_ecma/github_cwj49v.png" alt=""></a>
+    <a href="hieutmph22418@fpt.edu.vn"><img class="w-[70px] mx-4" src="https://res.cloudinary.com/dwp7umncy/image/upload/v1676946932/ass_ecma/email_tsmayg.png" alt=""></a>
     <a href=""><img class="w-[70px]" src="https://res.cloudinary.com/dwp7umncy/image/upload/v1676946919/ass_ecma/facebook_pliowr.png" alt=""></a>
   </div>
 </div>
