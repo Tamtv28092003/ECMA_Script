@@ -12,7 +12,7 @@ const navbar = () => {
     
   return `
   
-  <nav class="bg-[#faf6f6] border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+  <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
   <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center">
         <img src="https://res.cloudinary.com/dwp7umncy/image/upload/v1676944727/Phi_h%C3%A0nh_gia_ictyde.png" class="h-9 mr-3 sm:h-9 w-18" alt="Flowbite Logo" />

@@ -15,9 +15,9 @@ const aboutpage = () => {
   return `
   
     
-<div class="mx-auto px-4 bg-[#efe8e8]">
+<div class="mx-auto px-4 ">
 ${header()}
-<div class="lg:flex justify-between items-center bg-[#e8dede]">
+<div class="lg:flex justify-between items-center ">
   <div class=" lg:ml-36 lg:w-[500px]">
     <h1 class=" text-6xl font-bold">Xin chào,Tôi là Trương Hiếu</h1>
     <p class="text-4xl font-normal mt-6">Tôi làm: <marquee class="w-[200px]">Thiet Ke Website</marquee>
@@ -34,7 +34,7 @@ ${header()}
   </div>
 </div>
 <div class="main_content">
-<div class=" bg-[#e8dede] mt-10 py-[104px]">
+<div class="  mt-10 py-[104px]">
   <h1 class="text-center text-5xl font-[700] my-[64px]">ABOUT</h1>
   <div class="flex justify-between items-center border-[4px] border-zinc-600 lg:mx-32 lg:py-5">
     <div class="about_main_img border-red-500 border-[4px] h-[265px] lg:ml-40 ">
@@ -55,7 +55,7 @@ ${header()}
   </div>
 </div>
 
-<div class="project bg-[#e8dede]">
+<div class="project ">
   <h1 class="text-center text-5xl font-[700] mt-10 my-[64px]">PROJECT</h1>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
@@ -92,7 +92,7 @@ ${header()}
   </div>
 </div>
 
-<div class="contact bg-[#e8dede]">
+<div class="contact ">
   <h1 class="text-center text-5xl font-[700] mt-10">CONTACT</h1>
   <h3 class=" text-center py-5 font-[800]">Currently active looking for Frontend Developer Internship</h3>
   <div class="flex justify-center items-center py-3">
@@ -105,7 +105,7 @@ ${header()}
 </div>
 
 <div class="fotter">
-<div class=" text-center bg-gray-700 h-10">
+<div class=" text-center mt-[64px] h-10">
   <p class="text-xl">Designed and made with ❤ by THieu
     © 2022</p>
 </div>
