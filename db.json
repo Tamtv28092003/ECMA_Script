@@ -1,0 +1,31 @@
+{
+    "menulist": [
+      {
+        "id": 1,
+        "name": "ABOUT",
+        "link": "/"
+
+      },
+      {
+        "id": 2,
+        "name": "PROJECT",
+        "link": "/projectpage"
+
+      },
+      {
+        "id": 3,
+        "name": "CONTACT",
+        "link": "/contactpage"
+
+      }
+      
+    ],
+    "profile" : [
+      {
+        "img":"https://res.cloudinary.com/dwp7umncy/image/upload/v1676945167/06c9c2b54947bf19e656_xlrsel.jpg"
+      },
+      {
+        "img_about":"https://res.cloudinary.com/dwp7umncy/image/upload/v1676945557/face_qhgpih.jpg"
+      }
+    ]
+  }
