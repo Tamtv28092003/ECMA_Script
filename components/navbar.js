@@ -1,4 +1,4 @@
-import { getmenulist } from "../api/listmenu"
+import { getlogo, getmenulist } from "../api/listmenu"
 import { useEffect,useState } from "../libs"
 
 
@@ -9,13 +9,22 @@ const navbar = () => {
         getmenulist()
             .then(({ data }) => setdata(data))
     }, [])
+
+    const [datalogo, setlogo] = useState({})
+      useEffect(() => {
+        getlogo()
+            .then(({ data }) => setlogo(data)) 
+        
+    }, [])
+
+
     
   return `
   
   <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
   <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center">
-        <img src="https://res.cloudinary.com/dwp7umncy/image/upload/v1676944727/Phi_h%C3%A0nh_gia_ictyde.png" class="h-9 mr-3 sm:h-9 w-18" alt="Flowbite Logo" />
+        <img src="${datalogo.logo}" class="h-9 mr-3 sm:h-9 w-18" alt="Flowbite Logo" />
         <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">TrHieu</span>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -31,6 +40,9 @@ return`
         </li>
 `
   }).join("")}
+  <li>
+  <a href="/admin/projects" class=" block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page"><img class="w-[25px]" src="https://res.cloudinary.com/dwp7umncy/image/upload/v1677067134/login_laj0ch.png" alt=""></a>
+</li>
   </ul>
   </div>
 </div>
