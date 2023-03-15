@@ -40,12 +40,6 @@
   },
   "projects": [
     {
-      "id": 1,
-      "name": "Crypto Search Website",
-      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676946372/ass_ecma/shop_gawifu.jpg",
-      "text": "Crypto Search Website helps us search information of current crypto including rank, price, market cap, volume 24h."
-    },
-    {
       "id": 2,
       "name": "Crypto Search Website",
       "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676946372/ass_ecma/shop_gawifu.jpg",
@@ -56,6 +50,12 @@
       "name": "Crypto Search Website",
       "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676946372/ass_ecma/shop_gawifu.jpg",
       "text": "dddCrypto Search Website helps us search information of current crypto including rank, price, market cap, volume 24h."
+    },
+    {
+      "name": "Crypto Search Website",
+      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676946372/ass_ecma/shop_gawifu.jpg",
+      "text": "Crypto Search Website helps us search information of current crypto including rank, price, market cap, volume 24h.",
+      "id": 5
     }
   ],
   "user": [
