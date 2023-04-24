@@ -1,5 +1,5 @@
 import Navigo from "navigo";
-const router = new Navigo("/", { linksSelector: "a"});
+const router = new Navigo("/", { linksSelector: "a" });
 
 let effects = [];
 let currentEffectOrder = 0;
@@ -99,7 +99,7 @@ const useEffect = (cb, deps) => {
     currentEffectOrder++;
 };
 
-router.on("/*", () => {}, {
+router.on("/*", () => { }, {
     before(done, match) {
         states = [];
         currentStateOrder = 0;
