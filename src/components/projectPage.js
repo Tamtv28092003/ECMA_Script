@@ -6,7 +6,7 @@ const projectPage = () => {
       class="text-center py-[20px] font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
       Projects
     </h1>
-    <div class="md:flex md:justify-center  ml-[40px] md:ml-0 gap-5 mt-[40px]">
+    <div class="md:flex md:justify-center   md:ml-0 gap-5 mt-[40px]">
       <article class=" w-[400px] overflow-hidden  rounded-lg border border-gray-100 shadow-sm hover:shadow-lg">
         <img alt="Office"
           src="https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg"
