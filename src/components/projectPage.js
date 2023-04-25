@@ -3,7 +3,7 @@ const projectPage = () => {
     return `
     <div>
     <h1
-      class="text-center py-[20px] font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
+      class="text-center py-[20px] font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-black to-black">
       Projects
     </h1>
     <div class="md:flex md:justify-center   md:ml-0 gap-5 mt-[40px]">

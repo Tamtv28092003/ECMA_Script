@@ -4,7 +4,7 @@ const aboutPage = () => {
     return `
     <div class="h-full">
     <h1
-      class="text-center font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
+      class="text-center font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-black to-black">
       About
     </h1>
     <div class="md:ml-[220px] ml-[100px] md:flex justify-center mt-[70px]">
