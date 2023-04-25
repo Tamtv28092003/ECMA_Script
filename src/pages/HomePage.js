@@ -9,12 +9,12 @@ const HomePage = () => {
   return `
     <div>
     <div class="header">
-        <nav class="w-auto  border-gray-200 dark:bg-gray-900 text-[20px]">
-          <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <nav class="w-full md:fixed   border-gray-200 dark:bg-gray-900 text-[20px]">
+          <div class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
               <img src="https://res.cloudinary.com/dwp7umncy/image/upload/v1682400916/profile/logoa_k4nxov.png"
-                class="h-8 mr-3" alt="Flowbite Logo" />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap ">TmHieu</span>
+                class="w-[80px] h-[40px] " alt="Flowbite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap ">THieu</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
               class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -36,7 +36,7 @@ const HomePage = () => {
                 </li>
                 <li>
                   <a href="#about"
-                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent ">About</a>
                 </li>
                 <li>
                   <a href="#projects"
@@ -52,7 +52,7 @@ const HomePage = () => {
         </nav>
       </div>
 
-      <div class="pt-[40px]" id="home">
+      <div class="pt-[70px]" id="home">
       ${introduce()}
       </div>
       <div class="md:mt-[80px]" id="about">
@@ -67,8 +67,8 @@ const HomePage = () => {
       <footer class=" rounded-lg shadow dark:bg-gray-900 m-4">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-black sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
-          class="hover:underline">Flowbite™</a>. All Rights Reserved.</span>
+        <span class="block text-sm text-black sm:text-center dark:text-gray-400">© 2023 <a href=""
+          class="hover:underline">Hieu™</a>. All Rights Reserved.</span>
         </div>
     </footer>
     </div>

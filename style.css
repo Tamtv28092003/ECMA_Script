@@ -22,6 +22,10 @@ body {
     height: 100vh;
 }
 
+nav {
+    background: linear-gradient(-45deg, #d8fad0, #f3ebee, #cbdee4, #ffffff);
+}
+
 
 .buttononof {
     background: linear-gradient(-45deg, #b6e8a9, #d6cfd2, #bbe4f1, #b1e0d5);
