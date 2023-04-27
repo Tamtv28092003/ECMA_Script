@@ -1,61 +1,18 @@
 {
-  "menulist": [
+  "products": [
     {
       "id": 1,
-      "name": "ABOUT",
-      "link": "/"
+      "name": "Dự án Shop Thương Mại Điện tử",
+      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
+      "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
     },
     {
-      "id": 2,
-      "name": "PROJECT",
-      "link": "/projectpage"
-    },
-    {
-      "id": 3,
-      "name": "CONTACT",
-      "link": "/contactpage"
-    },
-    {
-      "id": 4,
-      "name": "",
-      "link": "/login"
-    }
-  ],
-  "logo": {
-    "id": 1,
-    "logo": "https://res.cloudinary.com/dwp7umncy/image/upload/v1677128903/logo_profile_tnlkgb.png"
-  },
-  "profile": {
-    "id": 1,
-    "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676945167/06c9c2b54947bf19e656_xlrsel.jpg",
-    "welcom": "Xin chào,Tôi là Trương Hiếu",
-    "jobs": "Thiet Ke Website",
-    "file": "https://www.facebook.com/m.hieu.truong.15"
-  },
-  "about": {
-    "id": 1,
-    "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676945557/face_qhgpih.jpg",
-    "text": "Hiện tại, mình đang là sinh viên kì 4 tại trường FPT Polytechnic. Mình bắt đầu học lập trình từ tháng 10 năm ngoái và phần lớn thời gian trong ngày mình đều ngồi học code. Ngoài việc học tập trên trường thì mình thường xuyên học thêm trên F8 Fullstack và trên các kênh Youtube như evondev, easy frontend, ...",
-    "text2": "Mình thực sự thích code và thử thách bản thân học được nhiều cái mới vào mỗi ngày mới. Mục tiêu hiện tại của mình là trở thành một lập trình viên Frontend..."
-  },
-  "projects": [
-    {
-      "id": 2,
-      "name": "Crypto Search Website",
-      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676946372/ass_ecma/shop_gawifu.jpg",
-      "text": "Crypto Search Website helps us search information of current crypto including rank, price, market cap, volume 24h."
-    },
-    {
-      "id": 4,
-      "name": "Crypto Search Website",
-      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676946372/ass_ecma/shop_gawifu.jpg",
-      "text": "dddCrypto Search Website helps us search information of current crypto including rank, price, market cap, volume 24h."
-    },
-    {
-      "name": "Crypto Search Website",
-      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1676946372/ass_ecma/shop_gawifu.jpg",
-      "text": "Crypto Search Website helps us search information of current crypto including rank, price, market cap, volume 24h.",
-      "id": 5
+      "name": "du an 3",
+      "img": [
+        "https://res.cloudinary.com/dwp7umncy/image/upload/v1682585637/profile/mowkzmmnyzvxt01ypcc4.gif"
+      ],
+      "text": "nodejs",
+      "id": 4
     }
   ],
   "user": [
@@ -63,7 +20,7 @@
       "id": 1,
       "email": "admin@gmail.com",
       "name": "Truong Minh Hieu",
-      "pass": "12345"
+      "pass": "123456"
     }
   ]
 }

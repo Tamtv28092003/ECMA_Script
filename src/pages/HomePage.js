@@ -9,7 +9,7 @@ const HomePage = () => {
   return `
     <div>
     <div class="header">
-        <nav class="w-full md:fixed   border-gray-200 dark:bg-gray-900 text-[20px]">
+        <nav class="nav w-full md:fixed   border-gray-200 dark:bg-gray-900 text-[20px]">
           <div class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
               <img src="https://res.cloudinary.com/dwp7umncy/image/upload/v1682400916/profile/logoa_k4nxov.png"

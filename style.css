@@ -22,7 +22,7 @@ body {
     height: 100vh;
 }
 
-nav {
+.nav {
     background: linear-gradient(-45deg, #d8fad0, #f3ebee, #cbdee4, #ffffff);
 }
 
