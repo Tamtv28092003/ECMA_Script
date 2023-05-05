@@ -9,7 +9,7 @@ const HomePage = () => {
   return `
     <div>
     <div class="header">
-        <nav class="nav w-full md:fixed   border-gray-200 dark:bg-gray-900 text-[20px]">
+        <nav class="nav w-full fixed   border-gray-200 dark:bg-gray-900 text-[20px]">
           <div class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
               <img src="https://res.cloudinary.com/dwp7umncy/image/upload/v1682400916/profile/logoa_k4nxov.png"
@@ -64,7 +64,7 @@ const HomePage = () => {
       <div class="mt-[70px]" id="contact">
       ${contactPage()}
       </div>
-      <footer class=" rounded-lg shadow dark:bg-gray-900 m-4">
+      <footer class=" text-center rounded-lg shadow dark:bg-gray-900 m-4">
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span class="block text-sm text-black sm:text-center dark:text-gray-400">© 2023 <a href=""
