@@ -24,9 +24,9 @@ const aboutPage = () => {
       <div class="w-full">
         <h2 class="text-2xl font-[600] flex justify-center items-center">Thông Tin Cơ Bản</h2>
         <div class="md:pl-[90px] md:pt-[15px] text-center md:text-left">
-        <p class="my-2 w-full font-[500] ">Họ & Tên :<span class="md:ml-[40px]"> Trương Minh Hiếu</span></p>
+        <p class="my-2 w-full font-[500] ">Họ & Tên :<span class="md:ml-[40px]"> Nguyễn văn A</span></p>
         <p class="my-2 font-[500] ">Học Vấn: <span class="md:ml-[52px]">FPT Polytechnic</span> </p>
-        <p class="my-2 font-[500]">Email: <span class="md:ml-[74px]">hieuhop2003@gmail.com</span></p>
+        <p class="my-2 font-[500]">Email: <span class="md:ml-[74px]">email@gmail.com</span></p>
         <p class="my-2 font-[500]">Địa chỉ: <span class="md:ml-[63px]">Cầu Giấy - Hà Nội</span></p>
         <p class="my-2 font-[500]">Nghề Nghiệp :<span class="md:ml-[13px]"> Web devoloper</span></p>
         </div>

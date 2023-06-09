@@ -1,7 +1,7 @@
-import layoutPage from "./components/layoutPage";
-import product_detail from "./components/product_detail";
+
 import { router, render } from "./libs/index";
 import HomePage from "./pages/HomePage";
+import NotFound from "./pages/NotFound";
 import ProductPage from "./pages/ProductPage";
 import SigninPage from "./pages/SigninPage";
 import SignupPage from "./pages/SignupPage";
@@ -17,20 +17,13 @@ const app = document.querySelector('#app');
 router.on('/', () => {
     render(HomePage, app)
 })
-// router.on('/admin', () => {
-//     render(layoutPage, app)
-// })
-// router.on('/projectpage', () => {
-//     render(projectpage, app)
-// })
+
 router.on("/products/:id", (params) => {
     render(function () {
-        return product_detail(params)
+        return ProductPage(params)
     }, app)
 })
-// router.on('/contactpage', () => {
-//     render(contactpage, app)
-// })
+
 router.on('/admin', () => {
     render(projectHome, app)
 })
@@ -50,13 +43,7 @@ router.on('/signup', () => {
     render(SignupPage, app)
 })
 
-// router.on("/projectpage/:id",(params)=>{
-//      console.log(params);
-//     render(function(){
-//         return ProjectDetailPage(params)
-//     },app)
-// })
-// router.on("/login", () => {
-//     render(login, app)
-// })
+router.notFound(() => {
+    render(NotFound, app)
+})
 router.resolve()

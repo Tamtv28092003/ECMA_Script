@@ -12,15 +12,14 @@ const projectPage = () => {
       class="text-center py-[20px] font-extrabold text-transparent text-5xl bg-clip-text bg-gradient-to-r from-black to-black">
       Projects
     </h1>
-    <div class="md:flex justify-center items-center  gap-5 mt-[40px]">
+    <div class="md:grid grid-cols-3 mt-[40px] ">
       ${products.map((item) => {
-    return `
-        
-      <div class="flex justify-center items-center">
-        <article class=" w-[400px] rounded-lg border border-gray-100 shadow-sm hover:shadow-lg">
+    return ` 
+      <div class="flex justify-center items-center py-[20px] ">
+        <article class=" w-11/12 rounded-lg border border-gray-100 shadow-sm hover:shadow-lg">
           <img alt="Office"
             src="${item.img}"
-            class="h-56 w-full object-cover" />
+            class="h-56 w-full object-cover rounded-lg" />
 
           <div class="p-4 sm:p-6">
             <a href="#">
@@ -45,7 +44,7 @@ const projectPage = () => {
         </article>
       </div>
       `
-  })}
+  }).join('')}
     </div>
   </div>
   `
