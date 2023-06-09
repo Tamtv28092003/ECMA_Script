@@ -14,11 +14,15 @@ const projectHome = () => {
     for (let btn of btns) {
       const id = btn.dataset.id;
       btn.addEventListener("click", function () {
-        const addnew = product.filter((proitem) => {
-          return proitem.id != id
-        })
-        setproduct(addnew);
-        getDelete(id)
+        const confirmed = confirm("Bạn có chắc chắn muốn xoá ?");
+        if (confirmed) {
+          const addnew = product.filter((proitem) => {
+            return proitem.id != id
+          })
+          setproduct(addnew);
+          getDelete(id);
+          alert('xoá thành công')
+        }
       })
     }
 

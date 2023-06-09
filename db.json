@@ -2,24 +2,33 @@
   "products": [
     {
       "id": 1,
-      "name": "Dự án Shop Thương Mại Điện tử",
+      "name": "Dự án Shop Thương Mại Điện tử 1",
       "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
       "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
     },
     {
-      "name": "du an 3",
-      "img": [
-        "https://res.cloudinary.com/dwp7umncy/image/upload/v1682585637/profile/mowkzmmnyzvxt01ypcc4.gif"
-      ],
-      "text": "nodejs",
-      "id": 4
+      "id": 2,
+      "name": "Dự án Shop Thương Mại Điện tử 2",
+      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
+      "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
+    },
+    {
+      "id": 3,
+      "name": "Dự án Shop Thương Mại Điện tử 3",
+      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
+      "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
+    },
+    {
+      "id": 4,
+      "name": "ssss",
+      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1686304219/profile/zf4ilwbefi0cmttijbgn.jpg",
+      "text": "sssss"
     }
   ],
   "user": [
     {
       "id": 1,
       "email": "admin@gmail.com",
-      "name": "Truong Minh Hieu",
       "pass": "123456"
     }
   ]
