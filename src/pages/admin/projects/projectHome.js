@@ -1,4 +1,3 @@
-
 import { getAll, getDelete } from "../../../api/product"
 import layoutPage from "../../../components/layoutPage"
 import { useEffect, useState } from "../../../libs"
@@ -7,11 +6,11 @@ const projectHome = () => {
   const [product, setproduct] = useState([])
   useEffect(() => {
     getAll().then(({ data }) => setproduct(data))
-  }, [])
-  useEffect(function () {
+  },[])
+  useEffect(function(){
     const btns = document.querySelectorAll(".btn-remove")
     console.log(btns);
-    for (let btn of btns) {
+    for (let btn of btns){
       const id = btn.dataset.id;
       btn.addEventListener("click", function () {
         const confirmed = confirm("Bạn có chắc chắn muốn xoá ?");
@@ -25,7 +24,6 @@ const projectHome = () => {
         }
       })
     }
-
   })
 
   return `

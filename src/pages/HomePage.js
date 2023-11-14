@@ -12,9 +12,9 @@ const HomePage = () => {
         <nav class="nav w-full fixed bg-[#fdfdfd]  border-gray-200 dark:bg-gray-900 text-[20px]">
           <div class="max-w-screen-xl  flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://flowbite.com/" class="flex items-center">
-              <img src="https://res.cloudinary.com/dwp7umncy/image/upload/v1682400916/profile/logoa_k4nxov.png"
+              <img src="https://res.cloudinary.com/dvdjnkkto/image/upload/v1686405088/frofile/logo1_jik1gy.jpg"
                 class="w-[80px] h-[40px] " alt="Flowbite Logo" />
-              <span class="self-center text-2xl font-semibold whitespace-nowrap ">THieu</span>
+              <span class="self-center text-2xl font-semibold whitespace-nowrap ">Vinh Tâm</span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button"
               class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
@@ -68,7 +68,7 @@ const HomePage = () => {
         <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span class="block text-sm text-black sm:text-center dark:text-gray-400">© 2023 <a href=""
-          class="hover:underline">Hieu™</a>. All Rights Reserved.</span>
+          class="hover:underline">Tâm™</a>. All Rights Reserved.</span>
         </div>
     </footer>
     </div>

@@ -1,29 +1,56 @@
 {
-  "products": [
-    {
-      "id": 1,
-      "name": "Dự án Shop Thương Mại Điện tử 1",
-      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
-      "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
-    },
-    {
-      "id": 2,
-      "name": "Dự án Shop Thương Mại Điện tử 2",
-      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
-      "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
-    },
-    {
-      "id": 3,
-      "name": "Dự án Shop Thương Mại Điện tử 3",
-      "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
-      "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
-    }
-  ],
-  "user": [
-    {
-      "id": 1,
-      "email": "admin@gmail.com",
-      "pass": "123456"
-    }
-  ]
-}
+    "products": [
+      {
+        "id": 1,
+        "name": "Dự án Shop Thương Mại 1",
+        "img": "https://res.cloudinary.com/dvdjnkkto/image/upload/v1692637262/Screen_Shot_2023-08-21_at_23.59.48_givnu0.png",
+        "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
+      },
+      {
+        "id": 2,
+        "name": "Dự án Shop Thương Mại Điện tử 2",
+        "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
+        "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
+      },
+      {
+        "id": 3,
+        "name": "Dự án Shop Thương Mại Điện tử 3",
+        "img": "https://res.cloudinary.com/dwp7umncy/image/upload/v1682323157/profile/duan_shop_a9hn4g.jpg",
+        "text": "Dự án cá nhân gồm 1 người và dùng ngôn ngữ như NodeJs , React ,..."
+      }
+    ],
+    "user": [
+      {
+        "id": 1,
+        "email": "admin@gmail.com",
+        "pass": "123456"
+      },
+      {
+        "email": "abc@gmail.com",
+        "password": "123456",
+        "id": 2
+      }
+    ],
+    "intrilers": [
+      {
+        "id": 1,
+        "text": "Xin Chào, Tôi là Trịnh Vinh Tâm",
+        "img": "https://res.cloudinary.com/dvdjnkkto/image/upload/v1686383743/frofile/06EFAAB0-ED9C-444E-A9A2-8DA9420EE6D7_dsdtfk.jpg"
+      }
+    ],
+    "about": [
+      {
+        "id": 1,
+        "text_1": "Hiện tại, mình đang là sinh viên kì 6 tại trường FPT Polytechnic. Mình bắt đầu học lập trình từ năm 2021 ngoái và phần lớn thời gian trong ngày mình đều ngồi học code. Ngoài việc học tập trên trường thì mình thường xuyên học thêm trên F8 Fullstack và trên các kênh Youtube như evondev, easy frontend, ...\n                \n                ",
+        "text_2": "Mình thực sự thích code và thử thách bản thân học được nhiều cái mới vào mỗi ngày mới. Mục tiêu hiện tại của mình là trở thành một lập trình viên Frontend...\n                \n                ",
+        "name": "Trịnh Vinh Tâm",
+        "img": "https://res.cloudinary.com/dvdjnkkto/image/upload/v1686387291/frofile/coder-developer-concentrated-working-project-developing-programming-coding-technologies_569013-336_lvygu8.avif",
+        "hocvan": "FPT Poly",
+        "email": "abc@gmail.com",
+        "diachi": "Cầu Giấy-hà nội",
+        "jober": "Sinh Viên"
+      }
+    ]
+   }
+   
+   

@@ -1,10 +1,19 @@
+import { useEffect, useState } from "../libs"
+import { introlAll } from '../api/introler'
 
 const introduce = () => {
+  const [intro, setIntro] = useState([])
+  useEffect(() => {
+    introlAll().then(({ data: intol }) => setIntro(intol))
+  }, [])
+  console.log(intro);
   return `
     <div class="md:flex justify-center  ">
+    ${intro.map((item) => {
+    return `
     <div class="w-full text-center md:w-2/3 md:ml-[180px] md:mt-[60px]">
       <h1 class="my-4 text-5xl md:text-left text-center text-purple-800 font-bold leading-tight  slide-in-bottom-h1">
-        Xin Chào, Tôi là Trương Hiếu</h1>
+      ${item.text}</h1>
       <div class="">
         <p class="text-[30px] font-bold text-center md:text-left">Tôi Làm <span
             class="text-[35px] inline-block animate-pulse bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">Web
@@ -19,8 +28,10 @@ const introduce = () => {
     <!-- img -->
     <div class="w-full   overflow-y-hidden">
       <img class="md:w-[350px]  w-[200px] mx-auto hover:scale-105 duration-700 ease-in-out hover:rotate-6 rounded-lg slide-in-bottom "
-        src="https://res.cloudinary.com/dwp7umncy/image/upload/v1682257371/profile/IMG_0880_raktky.jpg">
+        src="${item.img}">
     </div>
+    `
+  }).join('')}
   </div>
   `
 }

@@ -14,6 +14,7 @@ const projectUpdate = ({ data: { id } }) => {
         const name = document.getElementById("name")
         const img = document.getElementById("img")
         const text = document.getElementById("text")
+        
 
         form.addEventListener("submit", (e) => {
             e.preventDefault()

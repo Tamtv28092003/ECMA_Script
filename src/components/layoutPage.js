@@ -5,12 +5,12 @@ const layoutPage = () => {
     <div class="px-4 py-6">
     <div class="sticky inset-x-0 bottom-0 border-t border-gray-100">
     <a href="#" class="flex items-center gap-2 bg-white p-4 hover:bg-gray-50">
-      <img alt="Man" src="https://res.cloudinary.com/dwp7umncy/image/upload/v1682257371/profile/IMG_0880_raktky.jpg"
+      <img alt="Man" src="https://res.cloudinary.com/dvdjnkkto/image/upload/v1686383743/frofile/06EFAAB0-ED9C-444E-A9A2-8DA9420EE6D7_dsdtfk.jpg"
         class="h-10 w-10 rounded-full object-cover" />
 
       <div>
         <p class="text-xs">
-          <strong class="block font-medium">Trương Minh Hiếu</strong>
+          <strong class="block font-medium">Trịnh Vinh Tâm</strong>
 
           <span> admin@gmail.com </span>
         </p>
@@ -30,7 +30,7 @@ const layoutPage = () => {
           <span class="text-sm font-medium"> Projects </span>
         </a>
 
-        <a href="/admin/image"
+        <a href="/admin/introler"
           class="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 opacity-75" fill="none" viewBox="0 0 24 24"
             stroke="currentColor" stroke-width="2">
@@ -38,8 +38,19 @@ const layoutPage = () => {
               d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
           </svg>
 
-          <span class="text-sm font-medium"> Image </span>
+          <span class="text-sm font-medium"> Introler </span>
         </a>
+
+        <a href="/admin/about"
+        class="flex items-center gap-2 rounded-lg px-4 py-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 opacity-75" fill="none" viewBox="0 0 24 24"
+          stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        </svg>
+
+        <span class="text-sm font-medium"> About </span>
+      </a>
 
         <form action="/">
           <button type="submit"

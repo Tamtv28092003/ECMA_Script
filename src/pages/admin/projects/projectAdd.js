@@ -3,58 +3,54 @@ import { getAdd } from "../../../api/product"
 import layoutPage from "../../../components/layoutPage"
 import { router, useEffect } from "../../../libs"
 
-
 const projectAdd = () => {
+  useEffect(() => {
+    const form = document.getElementById("form")
+    const name = document.getElementById("name")
+    const img = document.getElementById("img")
+    const text = document.getElementById("text")
 
-    useEffect(() => {
-        const form = document.getElementById("form")
-        const name = document.getElementById("name")
-        const img = document.getElementById("img")
-        const text = document.getElementById("text")
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault()
+      const url = await uplodFiles(img.files)
+      const addnew = {
+        name:name.value,
+        img: url,
+        text: text.value
+      }
+      if (name.value == "" || text.value == "") {
+        alert('Bạn phải nhập đầy đủ các trường')
+        return;
+      } else {
+        getAdd(addnew).then(() => router.navigate("/admin"))
+        alert("thêm sản phẩm thành công")
+      }
+    })
+  }, [])
 
-        form.addEventListener("submit", async (e) => {
-            e.preventDefault()
-            const url = await uplodFiles(img.files)
-            const addnew = {
-                name: name.value,
-                img: url,
-                text: text.value
-            }
-            if (name.value == "" || text.value == "") {
-                alert('Bạn phải nhập đầy đủ các trường')
-                return;
-            } else {
-                getAdd(addnew).then(() => router.navigate("/admin"))
-                alert("thêm sản phẩm thành công")
-            }
+  const uplodFiles = async (files) => {
+    const CLOUD_NAME = "dvdjnkkto";
+    const PRESES_NAME = "upload";
+    const FOLDER_NAME = "frofile"
+    const urls = [];
+    const api = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`
+    const formData = new FormData();
+    formData.append("upload_preset", PRESES_NAME);
+    formData.append("folder", FOLDER_NAME);
 
-        })
-    }, [])
-
-    const uplodFiles = async (files) => {
-        const CLOUD_NAME = "dwp7umncy";
-        const PRESES_NAME = "profile";
-        const FOLDER_NAME = "profile"
-        const urls = [];
-        const api = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`
-
-        const formData = new FormData();
-        formData.append("upload_preset", PRESES_NAME);
-        formData.append("folder", FOLDER_NAME);
-
-        for (const file of files) {
-            formData.append("file", file)
-            const response = await axios.post(api, formData, {
-                headers: {
-                    "Content-Type": "multipart/form-data"
-                }
-            });
-            urls.push(response.data.secure_url)
+    for (const file of files) {
+      formData.append("file", file)
+      const response = await axios.post(api, formData, {
+        headers: {
+          "Content-Type": "multipart/form-data"
         }
-        return urls
+      });
+      urls.push(response.data.secure_url)
     }
+    return urls
+  }
 
-    return `
+  return `
     <div class="flex justify-self-start ">
     <div>${layoutPage()}</div>
     <div ">

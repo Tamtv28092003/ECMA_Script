@@ -1,7 +1,5 @@
-
 import { signin } from "../api/user"
 import { router, useEffect, useState } from "../libs"
-
 
 const SigninPage = () => {
     const [users, setUsser] = useState([])
@@ -25,7 +23,6 @@ const SigninPage = () => {
                     return;
                 }
             }
-
         })
     }, [])
     return `

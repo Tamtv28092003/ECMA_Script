@@ -1,7 +1,6 @@
 import { signup } from "../api/user"
 import { router, useEffect } from "../libs"
 
-
 const SignupPage = () => {
     useEffect(() => {
         const form = document.getElementById('form')
@@ -15,20 +14,17 @@ const SignupPage = () => {
                 email: email.value,
                 password: password.value
             }
-
-
             const passwordMatch = password.value === confirm_password.value;
             if (email.value === "" || password.value === "" || !passwordMatch) {
                 if (!passwordMatch) {
                     alert("Mật khẩu không khớp!");
                 } else {
-                    alert("Đăng kí thất bại!");
+                    alert("Đăng ký thất bại!");
                 }
             } else {
                 signup(adduser).then(() => router.navigate('/signin'));
                 alert("Đăng kí thành công!");
             }
-
         })
     }, [])
     return `
